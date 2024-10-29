@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Float & Clear</title>
+    <link rel="stylesheet" href="./assets/float.css" />
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon" />
+  </head>
+  <body>
+    <!-- Float è una proprietà CSS che serve ad 'affiancare' dei contenuti. Settando float ad un valore di left o right 'spostiamo' un elemento nel lato della pagina corrispondente; il contenuto SUCCESSIVO, senza nessuna proprietà CSS, confluirà naturalmente verso il lato opposto ('libero'). Oggi float è ancora utilizzato ma con l'evoluzione portata da flexbox, non è più una tecnica 'fondamentale'. -->
+    <header>
+      <h1>EPICODE</h1>
+      <nav>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JS</li>
+          <li>REACT</li>
+          <li>ANGULAR</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <aside id="left">
+        <img src="https://placecats.com/250/250" alt="cat pic" />
+      </aside>
+      <aside id="right">
+        <img src="https://placecats.com/250/250" alt="cat pic" />
+      </aside>
+      <section>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos soluta
+          delectus neque perspiciatis iure quasi sed, pariatur sit, deserunt id
+          unde beatae sequi minima dolore cupiditate eius repellat et sunt!
+        </p>
+      </section>
+    </main>
+    <footer><p>EPICODE 2024</p></footer>
+  </body>
+</html>

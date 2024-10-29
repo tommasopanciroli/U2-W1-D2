@@ -1,0 +1,47 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: navy;
+  text-align: center;
+}
+
+header h1 {
+  color: white;
+  margin: 0;
+}
+
+header nav {
+  background-color: lightblue;
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+main {
+  border: 1px solid black;
+}
+
+main aside#left {
+  /* questo è il contenitore con l'immagine del gatto */
+  /* allineamola a sinistra */
+  float: left;
+  /* se volessimo lasciare un pò di spaziatura tra l'immagine e il testo della section non serve inserire un padding alla section ma conviene applicare un padding direttamente all'aside */
+  margin-right: 1rem;
+}
+
+main aside#right {
+  float: right;
+  margin-left: 1rem;
+}
+
+footer {
+  /* CLEAR resetta il float */
+  clear: left;
+}
